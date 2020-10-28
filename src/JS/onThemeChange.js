@@ -1,4 +1,9 @@
-import { Theme, refs } from './refs'
+import { refs } from './refs'
+
+const Theme = {
+  LIGHT: 'light-theme',
+  DARK: 'dark-theme',
+};
 
 refs.checkbox.addEventListener('change', onThemeChange);
 

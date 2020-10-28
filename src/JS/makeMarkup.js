@@ -1,5 +1,5 @@
-import tamplate from '../src/template/menu-card.hbs'
-import menu from '../src/menu.json'
+import tamplate from '../template/menu-card.hbs'
+import menu from '../menu.json'
 
 
 const makeMarkupForMenu = function (menu) {
